@@ -1,3 +1,33 @@
 @media (min-width: 992px) {
-    
+	.header {
+		.nav {
+			display: grid;
+			grid-row: 1/2;
+            
+            
+
+			&-mobile {
+				display: none;
+			}
+
+			&-desktop {
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 2.4em;
+                z-index: 5;
+			}
+
+			&__link {
+                margin: 0;
+				color: white;
+            padding: 2em;
+
+			}
+		}
+
+		.burger-btn {
+			display: none;
+		}
+	}
 }
